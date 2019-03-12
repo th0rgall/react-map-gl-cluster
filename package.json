@@ -45,7 +45,7 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@turf/random": "^6.0.2",
-    "@urbica/react-map-gl": "^1.0.0-alpha",
+    "@urbica/react-map-gl": "1.0.0-alpha.4",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "codecov": "^3.2.0",
