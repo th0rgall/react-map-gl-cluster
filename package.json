@@ -1,6 +1,6 @@
 {
   "name": "react-map-gl-cluster",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Cluster Component for Mapbox GL JS",
   "author": "Stepan Kuzmin <to.stepan.kuzmin@gmail.com> (stepankuzmin.com)",
   "license": "MIT",
@@ -29,6 +29,7 @@
     "cz": "git-cz",
     "release": "npm run build && standard-version",
     "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
     "styleguide:build": "styleguidist build",
     "styleguide:deploy": "gh-pages -m 'auto commit [ci skip]' -d styleguide",
     "postpublish": "npm run styleguide:build && npm run styleguide:deploy"
