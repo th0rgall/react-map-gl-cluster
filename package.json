@@ -1,6 +1,6 @@
 {
-  "name": "@urbica/react-map-gl-cluster",
-  "version": "0.1.1",
+  "name": "react-map-gl-cluster",
+  "version": "0.1.0",
   "description": "React Cluster Component for Mapbox GL JS",
   "author": "Stepan Kuzmin <to.stepan.kuzmin@gmail.com> (stepankuzmin.com)",
   "license": "MIT",
@@ -34,8 +34,8 @@
     "postpublish": "npm run styleguide:build && npm run styleguide:deploy"
   },
   "peerDependencies": {
-    "@urbica/react-map-gl": "^1.0.0-alpha",
-    "supercluster": "^6.0.0"
+    "@urbica/react-map-gl": "^1.x",
+    "supercluster": "^6.x"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",

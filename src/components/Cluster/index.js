@@ -157,6 +157,7 @@ class Cluster extends PureComponent<Props, State> {
       longitude,
       latitude,
       clusterId,
+      cluster: this._cluster,
       pointCount,
       pointCountAbbreviated,
       key: `cluster-${cluster.properties.cluster_id}`

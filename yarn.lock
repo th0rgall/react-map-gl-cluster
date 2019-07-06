@@ -879,6 +879,11 @@
   resolved "https://registry.yarnpkg.com/@mapbox/jsonlint-lines-primitives/-/jsonlint-lines-primitives-2.0.2.tgz#ce56e539f83552b58d10d672ea4d6fc9adc7b234"
   integrity sha1-zlblOfg1UrWNENZy6k1vya3HsjQ=
 
+"@mapbox/mapbox-gl-language@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@mapbox/mapbox-gl-language/-/mapbox-gl-language-0.10.0.tgz#f93fb05cde7a8c092c29ff393c51b54e2e26611d"
+  integrity sha512-BBJ6CQStZbGKfARPOcVol97J5PLaLEbm6ya/PzzhC4Aw7f7a3cBiV5p6SYQFGhyAh2Z8MxjFaXH18xyB8KgrkA==
+
 "@mapbox/mapbox-gl-supported@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@mapbox/mapbox-gl-supported/-/mapbox-gl-supported-1.4.0.tgz#36946b22944fe2cfa43cfafd5ef36fdb54a069e4"
@@ -1042,10 +1047,12 @@
   resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-12.0.9.tgz#693e76a52f61a2f1e7fb48c0eef167b95ea4ffd0"
   integrity sha512-sCZy4SxP9rN2w30Hlmg5dtdRwgYQfYRiLo9usw8X9cxlf+H4FqM1xX7+sNH7NNKVdbXMJWqva7iyy+fxh/V7fA==
 
-"@urbica/react-map-gl@^1.0.0-alpha":
-  version "1.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@urbica/react-map-gl/-/react-map-gl-1.0.0-alpha.4.tgz#da3f6893d18ba033b714fccd8cfa23654bd38532"
-  integrity sha512-aEZ0zajlBjcgGCsfRzRXrqBpNP+DuO05URTT+LWAMBhv4q690RmVmh+TX2+jAkmQC5iv3nyx00AxQQLkMGld3w==
+"@urbica/react-map-gl@^1.7.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@urbica/react-map-gl/-/react-map-gl-1.8.0.tgz#3f2a4904a76c57d4e3398b2c77c96e86d6c05f15"
+  integrity sha512-fEB8lLEyiIAQ6c1M8+8/tLkvhg8RrtQZVQoyFvrIKlqy2k07rNTqeFN8BgugGi2srrLKcgIrFCoiuNwuB3lg6w==
+  optionalDependencies:
+    "@mapbox/mapbox-gl-language" "^0.10.0"
 
 "@vxna/mini-html-webpack-template@^0.1.7":
   version "0.1.7"
